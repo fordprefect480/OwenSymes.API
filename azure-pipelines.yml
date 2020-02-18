@@ -5,7 +5,7 @@ jobs:
 - job: API
   displayName: API
   pool:
-    name: Hosted VS2017
+    name: Windows 2019
     demands:
     - msbuild
     - visualstudio

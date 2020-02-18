@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Conduit.Domain
+namespace OwenSymes.API.Domain
 {
     public class Person
     {

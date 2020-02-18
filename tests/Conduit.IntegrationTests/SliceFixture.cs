@@ -1,13 +1,13 @@
 ﻿using System;
 using System.IO;
 using System.Threading.Tasks;
-using Conduit.Infrastructure;
+using OwenSymes.API.Infrastructure;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Conduit.IntegrationTests
+namespace OwenSymes.API.IntegrationTests
 {
     public class SliceFixture : IDisposable
     {

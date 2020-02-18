@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using FluentValidation;
 using MediatR;
 
-namespace Conduit.Features.Profiles
+namespace OwenSymes.API.Features.Profiles
 {
     public class Details
     {

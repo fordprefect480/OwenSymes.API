@@ -4,15 +4,15 @@ using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
-using Conduit.Domain;
-using Conduit.Infrastructure;
-using Conduit.Infrastructure.Errors;
-using Conduit.Infrastructure.Security;
+using OwenSymes.API.Domain;
+using OwenSymes.API.Infrastructure;
+using OwenSymes.API.Infrastructure.Errors;
+using OwenSymes.API.Infrastructure.Security;
 using FluentValidation;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace Conduit.Features.Users
+namespace OwenSymes.API.Features.Users
 {
     public class Create
     {

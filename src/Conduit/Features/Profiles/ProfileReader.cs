@@ -2,11 +2,11 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using AutoMapper;
-using Conduit.Infrastructure;
-using Conduit.Infrastructure.Errors;
+using OwenSymes.API.Infrastructure;
+using OwenSymes.API.Infrastructure.Errors;
 using Microsoft.EntityFrameworkCore;
 
-namespace Conduit.Features.Profiles
+namespace OwenSymes.API.Features.Profiles
 {
     public class ProfileReader : IProfileReader
     {

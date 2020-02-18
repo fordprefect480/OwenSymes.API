@@ -1,11 +1,11 @@
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Conduit.Infrastructure;
+using OwenSymes.API.Infrastructure;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace Conduit.Features.Tags
+namespace OwenSymes.API.Features.Tags
 {
     public class List
     {

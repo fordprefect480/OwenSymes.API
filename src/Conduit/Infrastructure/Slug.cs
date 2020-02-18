@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Conduit.Infrastructure
+namespace OwenSymes.API.Infrastructure
 {
     //https://stackoverflow.com/questions/2920744/url-slugify-algorithm-in-c
     //https://stackoverflow.com/questions/249087/how-do-i-remove-diacritics-accents-from-a-string-in-net

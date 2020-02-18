@@ -1,9 +1,9 @@
-﻿using Conduit.Infrastructure;
+﻿using OwenSymes.API.Infrastructure;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Conduit.IntegrationTests
+namespace OwenSymes.API.IntegrationTests
 {
     public class StubCurrentUserAccessor : ICurrentUserAccessor
     {

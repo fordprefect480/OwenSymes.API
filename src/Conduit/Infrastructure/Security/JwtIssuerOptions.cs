@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Conduit.Infrastructure.Security
+namespace OwenSymes.API.Infrastructure.Security
 {
     public class JwtIssuerOptions
     {

@@ -1,10 +1,10 @@
-﻿using Conduit.Domain;
+﻿using OwenSymes.API.Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using System.Data;
 using System.Threading.Tasks;
 
-namespace Conduit.Infrastructure
+namespace OwenSymes.API.Infrastructure
 {
     public class ConduitContext : DbContext
     {

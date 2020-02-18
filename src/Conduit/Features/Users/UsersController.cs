@@ -2,7 +2,7 @@ using System.Threading.Tasks;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Conduit.Features.Users
+namespace OwenSymes.API.Features.Users
 {
     [Route("users")]
     public class UsersController

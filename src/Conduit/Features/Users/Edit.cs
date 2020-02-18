@@ -3,13 +3,13 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
-using Conduit.Infrastructure;
-using Conduit.Infrastructure.Security;
+using OwenSymes.API.Infrastructure;
+using OwenSymes.API.Infrastructure.Security;
 using FluentValidation;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace Conduit.Features.Users
+namespace OwenSymes.API.Features.Users
 {
     public class Edit
     {

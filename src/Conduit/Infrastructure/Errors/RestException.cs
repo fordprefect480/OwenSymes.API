@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net;
 
-namespace Conduit.Infrastructure.Errors
+namespace OwenSymes.API.Infrastructure.Errors
 {
     public class RestException : Exception
     {

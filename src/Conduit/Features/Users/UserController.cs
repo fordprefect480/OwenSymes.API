@@ -1,11 +1,11 @@
 using System.Threading.Tasks;
-using Conduit.Infrastructure;
-using Conduit.Infrastructure.Security;
+using OwenSymes.API.Infrastructure;
+using OwenSymes.API.Infrastructure.Security;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Conduit.Features.Users
+namespace OwenSymes.API.Features.Users
 {
     [Route("user")]
     [Authorize(AuthenticationSchemes = JwtIssuerOptions.Schemes)]

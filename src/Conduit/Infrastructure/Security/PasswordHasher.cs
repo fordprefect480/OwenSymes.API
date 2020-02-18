@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Conduit.Infrastructure.Security
+namespace OwenSymes.API.Infrastructure.Security
 {
     public class PasswordHasher : IPasswordHasher
     {

@@ -1,7 +1,7 @@
 using System;
 using Newtonsoft.Json;
 
-namespace Conduit.Domain
+namespace OwenSymes.API.Domain
 {
     public class Comment
     {

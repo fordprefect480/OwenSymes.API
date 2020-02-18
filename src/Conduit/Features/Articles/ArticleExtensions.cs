@@ -1,8 +1,8 @@
 using System.Linq;
-using Conduit.Domain;
+using OwenSymes.API.Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace Conduit.Features.Articles
+namespace OwenSymes.API.Features.Articles
 {
     public static class ArticleExtensions
     {

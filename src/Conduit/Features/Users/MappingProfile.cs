@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace Conduit.Features.Users
+namespace OwenSymes.API.Features.Users
 {
     public class MappingProfile : Profile
     {

@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 
-namespace Conduit.Infrastructure
+namespace OwenSymes.API.Infrastructure
 {
     public class GroupByApiRootConvention : IControllerModelConvention
     {

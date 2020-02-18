@@ -5,28 +5,24 @@ jobs:
 - job: API
   displayName: API
   pool:
-    name: Windows 2019
+    name: windows-2019
     demands:
     - msbuild
     - visualstudio
     - vstest
   steps:
-    - task: NuGetToolInstaller@0
-      displayName: 'Use NuGet 4.4.1'
+    - task: UseDotNet@2
       inputs:
-        versionSpec: 4.4.1
+        packageType: 'sdk'
+        version: '3.1.x'
+    - script: dotnet build --configuration $(buildConfiguration)
+      displayName: 'dotnet build $(buildConfiguration)'
 
-    - task: NuGetCommand@2
-      displayName: 'NuGet restore'
+    - task: DotNetCoreCLI@2
       inputs:
-        restoreSolution: 'OwenSymes.API.sln'
-
-    - task: VSBuild@1
-      inputs:
-        solution: '**\*.sln'
-        msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactstagingdirectory)\\"'
-        platform: '$(BuildPlatform)'
-        configuration: '$(BuildConfiguration)'
+        command: 'publish'
+        publishWebProjects: true
+        arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
 
     - task: AzureRmWebAppDeployment@4
       displayName: 'Azure App Service Deploy: owensymes'

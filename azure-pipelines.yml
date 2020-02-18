@@ -19,7 +19,7 @@ jobs:
     - task: NuGetCommand@2
       displayName: 'NuGet restore'
       inputs:
-        restoreSolution: 'API/OwenSymes.sln'
+        restoreSolution: 'OwenSymes.API.sln'
 
     - task: VSBuild@1
       inputs:

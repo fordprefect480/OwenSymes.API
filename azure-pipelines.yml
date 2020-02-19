@@ -30,14 +30,15 @@ jobs:
         arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
 
     - task: AzureRmWebAppDeployment@4
-      displayName: 'Azure App Service Deploy: owensymes'
       inputs:
         ConnectionType: 'AzureRM'
         azureSubscription: 'Pay-As-You-Go (0965bb35-0dbf-4993-9dcb-5d75ccd0ca44)'
         appType: 'webApp'
         WebAppName: 'owensymes'
-        packageForLinux: '$(build.artifactstagingdirectory)/**/*.zip'
-
+        packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+        enableCustomDeployment: true
+        DeploymentType: 'webDeploy'
+        
     - task: PublishSymbols@2
       displayName: 'Publish symbols path'
       inputs:

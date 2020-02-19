@@ -283,3 +283,5 @@ tools
 .env
 
 .DS_Store
+
+src/Conduit/owensymes.db

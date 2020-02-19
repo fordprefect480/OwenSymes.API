@@ -42,7 +42,7 @@ jobs:
         azureSubscription: 'Pay-As-You-Go (0965bb35-0dbf-4993-9dcb-5d75ccd0ca44)'
         appType: 'webApp'
         WebAppName: 'owensymes'
-        packageForLinux: '$(System.artifactstagingdirectory)/**/*.zip'
+        packageForLinux: '$(Build.ArtifactStagingDirectory)/**/*.zip'
         enableCustomDeployment: true
         DeploymentType: 'webDeploy'
         

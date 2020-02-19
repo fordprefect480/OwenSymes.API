@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Conduit.Domain
+namespace OwenSymes.API.Domain
 {
     public class Tag
     {

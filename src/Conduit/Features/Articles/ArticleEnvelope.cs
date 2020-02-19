@@ -1,6 +1,6 @@
-using Conduit.Domain;
+using OwenSymes.API.Domain;
 
-namespace Conduit.Features.Articles
+namespace OwenSymes.API.Features.Articles
 {
     public class ArticleEnvelope
     {

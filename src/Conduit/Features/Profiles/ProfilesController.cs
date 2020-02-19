@@ -2,7 +2,7 @@ using System.Threading.Tasks;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Conduit.Features.Profiles
+namespace OwenSymes.API.Features.Profiles
 {
     [Route("profiles")]
     public class ProfilesController : Controller

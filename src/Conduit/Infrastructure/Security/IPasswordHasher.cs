@@ -1,4 +1,4 @@
-﻿namespace Conduit.Infrastructure.Security
+﻿namespace OwenSymes.API.Infrastructure.Security
 {
     public interface IPasswordHasher
     {

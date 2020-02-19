@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using Newtonsoft.Json;
 
-namespace Conduit.Domain
+namespace OwenSymes.API.Domain
 {
     public class Article
     {

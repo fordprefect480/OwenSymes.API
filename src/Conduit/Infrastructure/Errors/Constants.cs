@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Conduit.Infrastructure.Errors
+namespace OwenSymes.API.Infrastructure.Errors
 {
     public static class Constants
     {

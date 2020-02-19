@@ -1,11 +1,11 @@
 using System.Threading.Tasks;
-using Conduit.Features.Profiles;
-using Conduit.Infrastructure.Security;
+using OwenSymes.API.Features.Profiles;
+using OwenSymes.API.Infrastructure.Security;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Conduit.Features.Followers
+namespace OwenSymes.API.Features.Followers
 {
     [Route("profiles")]
     public class FollowersController : Controller

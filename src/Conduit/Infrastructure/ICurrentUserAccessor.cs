@@ -1,4 +1,4 @@
-﻿namespace Conduit.Infrastructure
+﻿namespace OwenSymes.API.Infrastructure
 {
     public interface ICurrentUserAccessor
     {

@@ -1,6 +1,6 @@
-using Conduit.Domain;
+using OwenSymes.API.Domain;
 
-namespace Conduit.Features.Comments
+namespace OwenSymes.API.Features.Comments
 {
     public class CommentEnvelope
     {

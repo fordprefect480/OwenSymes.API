@@ -1,15 +1,15 @@
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
-using Conduit.Domain;
-using Conduit.Features.Articles;
-using Conduit.Infrastructure;
-using Conduit.Infrastructure.Errors;
+using OwenSymes.API.Domain;
+using OwenSymes.API.Features.Articles;
+using OwenSymes.API.Infrastructure;
+using OwenSymes.API.Infrastructure.Errors;
 using FluentValidation;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace Conduit.Features.Favorites
+namespace OwenSymes.API.Features.Favorites
 {
     public class Add
     {

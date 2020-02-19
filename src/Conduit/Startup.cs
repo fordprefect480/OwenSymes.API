@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using Conduit.Features.Profiles;
-using Conduit.Infrastructure;
-using Conduit.Infrastructure.Errors;
-using Conduit.Infrastructure.Security;
+using OwenSymes.API.Features.Profiles;
+using OwenSymes.API.Infrastructure;
+using OwenSymes.API.Infrastructure.Errors;
+using OwenSymes.API.Infrastructure.Security;
 using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
@@ -20,11 +20,11 @@ using System.Linq;
 using System.Reflection;
 using Microsoft.OpenApi.Models;
 
-namespace Conduit
+namespace OwenSymes.API
 {
     public class Startup
     {
-        public const string DEFAULT_DATABASE_CONNECTIONSTRING = "Filename=realworld.db";
+        public const string DEFAULT_DATABASE_CONNECTIONSTRING = "Filename=owensymes.db";
         public const string DEFAULT_DATABASE_PROVIDER = "sqlite";
 
         private readonly IConfiguration _config;
@@ -85,7 +85,7 @@ namespace Conduit
                     },
                     new string[] {}}
                 });
-                x.SwaggerDoc("v1", new OpenApiInfo { Title = "RealWorld API", Version = "v1" });
+                x.SwaggerDoc("v1", new OpenApiInfo { Title = "OwenSymes.API", Version = "v1" });
                 x.CustomSchemaIds(y => y.FullName);
                 x.DocInclusionPredicate((version, apiDescription) => true);
                 x.TagActionsBy(y => new List<string>()
@@ -145,7 +145,7 @@ namespace Conduit
             // Enable middleware to serve swagger-ui assets(HTML, JS, CSS etc.)
             app.UseSwaggerUI(x =>
             {
-                x.SwaggerEndpoint("/swagger/v1/swagger.json", "RealWorld API V1");
+                x.SwaggerEndpoint("/swagger/v1/swagger.json", "OwenSymes API V1");
             });
 
             app.ApplicationServices.GetRequiredService<ConduitContext>().Database.EnsureCreated();

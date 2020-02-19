@@ -1,11 +1,11 @@
 using System.Threading.Tasks;
-using Conduit.Features.Articles;
-using Conduit.Infrastructure.Security;
+using OwenSymes.API.Features.Articles;
+using OwenSymes.API.Infrastructure.Security;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Conduit.Features.Favorites
+namespace OwenSymes.API.Features.Favorites
 {
     [Route("articles")]
     public class FavoritesController : Controller

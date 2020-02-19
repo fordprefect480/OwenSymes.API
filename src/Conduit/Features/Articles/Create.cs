@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Conduit.Domain;
-using Conduit.Infrastructure;
+using OwenSymes.API.Domain;
+using OwenSymes.API.Infrastructure;
 using FluentValidation;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace Conduit.Features.Articles
+namespace OwenSymes.API.Features.Articles
 {
     public class Create
     {

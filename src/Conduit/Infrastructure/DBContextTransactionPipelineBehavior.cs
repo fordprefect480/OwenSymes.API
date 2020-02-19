@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Conduit.Infrastructure
+namespace OwenSymes.API.Infrastructure
 {
     /// <summary>
     /// Adds transaction to the processing pipeline

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Conduit.Features.Tags
+namespace OwenSymes.API.Features.Tags
 {
     public class TagsEnvelope
     {

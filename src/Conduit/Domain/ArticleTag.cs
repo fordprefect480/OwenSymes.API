@@ -1,4 +1,4 @@
-namespace Conduit.Domain
+namespace OwenSymes.API.Domain
 {
     public class ArticleTag
     {

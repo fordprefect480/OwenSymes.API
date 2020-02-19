@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using Conduit.Features.Users;
+using OwenSymes.API.Features.Users;
 
-namespace Conduit.IntegrationTests.Features.Users
+namespace OwenSymes.API.IntegrationTests.Features.Users
 {
     public static class UserHelpers
     {

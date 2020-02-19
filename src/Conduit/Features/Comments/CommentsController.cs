@@ -1,10 +1,10 @@
 using System.Threading.Tasks;
-using Conduit.Infrastructure.Security;
+using OwenSymes.API.Infrastructure.Security;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Conduit.Features.Comments
+namespace OwenSymes.API.Features.Comments
 {
     [Route("articles")]
     public class CommentsController : Controller

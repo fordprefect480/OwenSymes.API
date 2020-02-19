@@ -2,7 +2,7 @@ using System.Threading.Tasks;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Conduit.Features.Tags
+namespace OwenSymes.API.Features.Tags
 {
     [Route("tags")]
     public class TagsController : Controller

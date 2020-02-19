@@ -1,18 +1,18 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
-using Conduit.Features.Users;
-using Conduit.Infrastructure.Security;
+using OwenSymes.API.Features.Users;
+using OwenSymes.API.Infrastructure.Security;
 using Microsoft.EntityFrameworkCore;
 using Xunit;
 
-namespace Conduit.IntegrationTests.Features.Users
+namespace OwenSymes.API.IntegrationTests.Features.Users
 {
     public class CreateTests : SliceFixture
     {
         [Fact]
         public async Task Expect_Create_User()
         {
-            var command = new Conduit.Features.Users.Create.Command()
+            var command = new OwenSymes.API.Features.Users.Create.Command()
             {
                 User = new Create.UserData()
                 {

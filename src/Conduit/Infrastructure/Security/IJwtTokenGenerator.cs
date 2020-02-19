@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Conduit.Infrastructure.Security
+namespace OwenSymes.API.Infrastructure.Security
 {
     public interface IJwtTokenGenerator
     {

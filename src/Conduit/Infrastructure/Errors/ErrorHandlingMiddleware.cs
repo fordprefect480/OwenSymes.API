@@ -6,7 +6,7 @@ using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-namespace Conduit.Infrastructure.Errors
+namespace OwenSymes.API.Infrastructure.Errors
 {
     public class ErrorHandlingMiddleware
     {

@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Conduit.Features.Profiles
+namespace OwenSymes.API.Features.Profiles
 {
     public interface IProfileReader
     {

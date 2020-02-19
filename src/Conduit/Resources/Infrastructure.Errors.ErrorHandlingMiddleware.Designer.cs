@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Conduit.Resources {
+namespace OwenSymes.API.Resources {
     using System;
     
     
@@ -19,7 +19,7 @@ namespace Conduit.Resources {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Infrastructure_Errors_ErrorHandlingMiddleware {
@@ -39,7 +39,7 @@ namespace Conduit.Resources {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Conduit.Resources.Infrastructure.Errors.ErrorHandlingMiddleware", typeof(Infrastructure_Errors_ErrorHandlingMiddleware).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("OwenSymes.API.Resources.Infrastructure.Errors.ErrorHandlingMiddleware", typeof(Infrastructure_Errors_ErrorHandlingMiddleware).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

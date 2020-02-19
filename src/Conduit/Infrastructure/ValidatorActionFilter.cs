@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-namespace Conduit.Infrastructure
+namespace OwenSymes.API.Infrastructure
 {
     public class ValidatorActionFilter : IActionFilter
     {

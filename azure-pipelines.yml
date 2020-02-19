@@ -23,18 +23,18 @@ jobs:
         command: 'build'
         arguments: '--configuration $(buildConfiguration)'
 
-    - task: PublishBuildArtifacts@1
-      displayName: 'Publish Artifact: drop'
-      inputs:
-        PathtoPublish: '$(build.artifactstagingdirectory)'
-      condition: succeededOrFailed()
-
     - task: DotNetCoreCLI@2
       inputs:
         command: 'publish'
         publishWebProjects: true
         arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
 
+    - task: PublishBuildArtifacts@1
+      displayName: 'Publish Artifact: drop'
+      inputs:
+        PathtoPublish: '$(build.artifactstagingdirectory)'
+      condition: succeededOrFailed()
+      
     - task: AzureRmWebAppDeployment@4
       inputs:
         ConnectionType: 'AzureRM'

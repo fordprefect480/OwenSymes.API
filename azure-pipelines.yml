@@ -45,6 +45,7 @@ jobs:
         packageForLinux: '$(Build.ArtifactStagingDirectory)/**/*.zip'
         enableCustomDeployment: true
         DeploymentType: 'webDeploy'
+        RemoveAdditionalFilesFlag: true
         
     - task: PublishSymbols@2
       displayName: 'Publish symbols path'
